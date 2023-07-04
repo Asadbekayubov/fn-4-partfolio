@@ -90,8 +90,6 @@ a {
     justify-content: space-between;
 }
 
-.header__hero-info {}
-
 .header__hero-info-title {
     font-size: 44px;
     font-weight: 700;
@@ -120,7 +118,4 @@ a {
     font-weight: 500;
     line-height: 29px;
     color: #FFFFFF;
-}
-
-.header__hero-img {
 }
