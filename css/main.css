@@ -33,9 +33,93 @@ body {
     display: flex;
     flex-direction: column;
     color: #21243d;
+    font-family: 'Heebo', sans-serif;
 }
 
 main {
     flex-grow: 1;
     display: block;
 }
+
+
+img {
+    display: flex;
+    object-fit: cover;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1452px;
+    width: 100%;
+    padding-left: 150px;
+    padding-right: 150px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sitenav {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    padding: 27px 60px;
+    margin-bottom: 120px;
+}
+
+.sitenav__list {
+    display: flex;
+    gap: 33px;
+}
+
+.sitenav__list-item {
+    list-style: none;
+}
+
+.sitenav__list-item-link {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 29px;
+    color: #000000;
+}
+
+.header__hero {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__hero-info {}
+
+.header__hero-info-title {
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 60px;
+    margin-bottom: 40px;
+}
+
+.header__hero-info-paragraph {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    width: 497px;
+    margin-bottom: 38px;
+}
+
+.header__hero-info-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 208px;
+    height: 47px;
+    border-radius: 2px;
+    background-color: #FF6464;
+    font-family: Heebo;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+
+.header__hero-img {}
