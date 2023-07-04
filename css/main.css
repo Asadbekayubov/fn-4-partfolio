@@ -123,6 +123,4 @@ a {
 }
 
 .header__hero-img {
-    display: flex;
-    object-fit: cover;
 }
