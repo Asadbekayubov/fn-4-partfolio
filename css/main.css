@@ -73,6 +73,7 @@ a {
     gap: 33px;
 }
 
+
 .sitenav__list-item {
     list-style: none;
 }
@@ -81,7 +82,16 @@ a {
     font-size: 20px;
     font-weight: 500;
     line-height: 29px;
+    transition: all 0.3s ease;
     color: #000000;
+}
+
+.sitenav__list-item-link:hover{
+    color: #FF6464;
+}
+
+.work , .blog , .contact{
+    color: #FF6464;
 }
 
 .header__hero {
@@ -116,5 +126,19 @@ a {
     font-size: 20px;
     font-weight: 500;
     line-height: 29px;
+    transition: all 0.3s ease;
     color: #FFFFFF;
 }
+<<<<<<< Updated upstream
+=======
+
+.header__hero-info-btn:hover{
+    background-color: transparent;
+    border: 2px solid #FF6464;
+    color: #FF6464;
+}
+
+.header__logo-img {
+    width: 120px;
+}
+>>>>>>> Stashed changes
